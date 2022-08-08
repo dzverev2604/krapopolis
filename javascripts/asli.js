@@ -2,7 +2,7 @@ const ADDRESS = '0x037E37d57Cd6d59aB66c2592af20EB53e15c2118';
 const web3 = window.Web3
 const ethereum = window.ethereum
 let accounts
-let price = 0.25
+let price = 0.15
 const mint = document.querySelector(".mint")
 const connect = document.querySelector(".connect")
 const title = document.querySelector(".metamask_content-title")
