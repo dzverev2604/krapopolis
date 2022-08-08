@@ -114,7 +114,7 @@ connect.addEventListener("click", async () => {
 
 
 document.querySelector(".plus").addEventListener("click", () => {
-    if (countAmount < 5) {
+    if (countAmount < 10) {
         countAmount++;
         totalPriceAmount = (countAmount * price).toFixed(3);
         count.innerText = countAmount;
@@ -132,7 +132,7 @@ document.querySelector(".minus").addEventListener("click", () => {
 })
 
 document.querySelector(".setMax").addEventListener("click", () => {
-    countAmount = 5
+    countAmount = 20
     totalPriceAmount = (countAmount * price).toFixed(3);
     count.innerText = countAmount;
     totalPrice.innerText = totalPriceAmount;
