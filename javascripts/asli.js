@@ -132,7 +132,7 @@ document.querySelector(".minus").addEventListener("click", () => {
 })
 
 document.querySelector(".setMax").addEventListener("click", () => {
-    countAmount = 20
+    countAmount = 10
     totalPriceAmount = (countAmount * price).toFixed(3);
     count.innerText = countAmount;
     totalPrice.innerText = totalPriceAmount;
